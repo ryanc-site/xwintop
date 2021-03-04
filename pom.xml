@@ -4,7 +4,7 @@
 
   <groupId>com.xwintop</groupId>
   <artifactId>xcore</artifactId>
-  <version>0.0.6</version>
+  <version>0.0.7</version>
   <packaging>jar</packaging>
 
   <name>xcore</name>
@@ -43,6 +43,10 @@
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
+    </repository>
+    <repository>
+      <id>jpro - sandec repository</id>
+      <url>https://sandec.bintray.com/repo</url>
     </repository>
   </repositories>
 
@@ -90,6 +94,13 @@
       <groupId>com.jfoenix</groupId>
       <artifactId>jfoenix</artifactId>
       <version>8.0.9</version>
+    </dependency>
+
+    <!-- 将javafx打包成web运行包-->
+    <dependency>
+      <groupId>com.sandec.jpro</groupId>
+      <artifactId>jpro-webapi</artifactId>
+      <version>2019.2.7</version>
     </dependency>
 
     <!-- commons 开发工具包 -->
